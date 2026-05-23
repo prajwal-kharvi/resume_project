@@ -33,8 +33,8 @@ const HREMSLogo = new URL("./assets/education_logo/HREMS.png", import.meta.url);
 
 // project section images
 const FoodDelivery = new URL("./assets/project_image/Food Delivery.png", import.meta.url);
-const ECommerceWebsite = new URL("./assets/project_image/onlineshopping.png", import.meta.url);
-const PersonalPortfolio = new URL("./assets/project_image/protfolio.png", import.meta.url);
+const FinanceDashboard = new URL("./assets/project_image/Finance_Dashboard.png", import.meta.url);
+const PersonalPortfolio = new URL("./assets/project_image/Personal_Portfolio.png", import.meta.url);
 
 // certifications section images
 const NamasteReact = new URL("./assets/certifications/namaste_react.webp", import.meta.url);
@@ -130,6 +130,26 @@ export const Educations=[
 export const Projects=[
     {
         id: 0,
+        title: "Finance Dashboard Website",
+        description:
+            "Developed an interactive finance dashboard with role-based access, financial charts using Recharts, Context API state management, CRUD operations, search filtering, dark mode, and a fully responsive UI for seamless user experience.",
+        image: FinanceDashboard,
+        tags: [" React.js"," Tailwind CSS","Context API ","Recharts"],
+        github: "https://github.com/prajwal-kharvi/finance-dashboard",
+        webapp: "https://finance-dashboard-eight-peach.vercel.app/",
+    },
+    {
+        id: 1,
+        title: "Personal Portfolio Website",
+        description:
+            "Designed and developed a responsive personal portfolio website using React and CSS/Tailwind to showcase projects and technical skills, featuring a clean UI, smooth navigation, GitHub version control, and deployment on Vercel.",
+        image: PersonalPortfolio,
+        tags: [" React.js"," HTML5"," Tailwind CSS "," Vercel "," Parcel"],
+        github: "https://github.com/prajwal-kharvi/resume_project",
+        webapp: "https://prajwalresume-prajwal-kharvis-projects.vercel.app/",
+    },
+    {
+        id: 2,
         title: "Food Delivery Web Application (Swiggy Clone)",
         description:
             "\n" +
@@ -137,27 +157,7 @@ export const Projects=[
         image: FoodDelivery,
         tags: ["React.js"," React Router"," REST API "," Bootstrap 5 ","Parcel"],
         github: "https://github.com/prajwal-kharvi/food_delivery_app",
-        webapp: "",
-    },
-    {
-        id: 1,
-        title: "E-Commerce Website (Flipkart-Inspired)",
-        description:
-            "Designed responsive multi-page e-commerce website with product categories and user registration functionality.Implemented Bootstrap carousel component for promotional banners with auto-slide.Created responsive navigation bar with dropdown menus using Bootstrap components.Developed user registration form with client-side validation for data integrity.Applied Bootstrap grid system ensuring mobile-first responsive design across devices.",
-        image: ECommerceWebsite,
-        tags: ["HTML5","CSS3", " Bootstrap 5 ","JavaScript"],
-        github: "https://github.com/prajwal-kharvi/e-commerce_website",
-        webapp: "",
-    },
-    {
-        id: 2,
-        title: "Personal Portfolio Website",
-        description:
-            "Developed portfolio website showcasing education and interests with clean UI.Integrated Font Awesome icon library for enhanced visual design.Implemented JavaScript event handlers for interactive user experience.Applied semantic HTML5 structure for better accessibility and SEO.",
-        image: PersonalPortfolio,
-        tags: ["HTML5"," CSS3", "JavaScript ", "Font Awesome"],
-        github: "https://github.com/prajwal-kharvi/portfolio_website",
-        webapp: "",
+        webapp: "https://github.com/prajwal-kharvi/food_delivery_app",
     },
 ]
 
@@ -167,17 +167,17 @@ export const Certifications =[
         id: 0,
         img: NamasteJavaScript,
         imgLogo:NamasteDev,
-        course: "JavaScript",
+        course: "Namaste JavaScript",
         company: "NamasteDev.com",
-        desc: "Completed Namaste React certification with strong knowledge of React fundamentals, including components, JSX, props, state, hooks (useState, useEffect), and component lifecycle.Hands-on experience in building scalable, reusable UI components and managing application state and side effects.Familiar with modern React practices, performance optimization, and integrating APIs for frontend applications.",
+        desc: "Completed Namaste JavaScript course with strong understanding of core JavaScript concepts such as closures, promises, async/await, event loop, hoisting, ES6 features, and DOM manipulation through practical projects and hands-on learning.",
     },
     {
         id: 1,
         img: NamasteReact,
         imgLogo:NamasteDev,
-        course: "React",
+        course: "Namaste React",
         company: "NamasteDev.com",
-        desc: "Completed Namaste React, gaining practical knowledge of React components, hooks, state management, and modern frontend development practices.",
+        desc: "Completed Namaste React certification with strong knowledge of React fundamentals, including components, JSX, props, state, hooks (useState, useEffect), and component lifecycle.Hands-on experience in building scalable, reusable UI components and managing application state and side effects.Familiar with modern React practices, performance optimization, and integrating APIs for frontend applications.",
     }
 ]
 
