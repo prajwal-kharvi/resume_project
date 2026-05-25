@@ -8,8 +8,6 @@ import Skills from "./components/Skills/Skills";
 import WorkProject from "./components/Workproject/WorkProject";
 import Certification from "./components/Certification/Certification";
 import BlueBlob from "./BlueBlob";
-
-
 const App = () => {
     return (
         <div className="bg-[#050414]">
