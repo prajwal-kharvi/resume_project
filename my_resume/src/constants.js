@@ -15,7 +15,10 @@ const ApiLogo = new URL("./assets/tech_logo/Api.png", import.meta.url);
 const excelLogo = new URL("./assets/tech_logo/msexcel.png", import.meta.url);
 const wordLogo = new URL("./assets/tech_logo/msword.png", import.meta.url);
 const powerpointLogo = new URL("./assets/tech_logo/mspowerpoint.png", import.meta.url);
-const sassLogo = new URL("./assets/tech_logo/sass.png", import.meta.url);
+const nodeLogo=new URL("./assets/tech_logo/nodeJs.png",import.meta.url)
+const expressLogo=new URL("./assets/tech_logo/express.png",import.meta.url)
+const mongoLogo=new URL("./assets/tech_logo/mongoDB.png",import.meta.url)
+const daisyUILogo=new URL("./assets/tech_logo/daisyUI.png",import.meta.url)
 
 // tools section logos
 const gitLogo = new URL("./assets/tech_logo/git.png", import.meta.url);
@@ -40,13 +43,7 @@ const PersonalPortfolio = new URL("./assets/project_image/Personal_Portfolio.png
 const NamasteReact = new URL("./assets/certifications/namaste_react.webp", import.meta.url);
 const NamasteJavaScript = new URL("./assets/certifications/namaste_js.webp", import.meta.url);
 const NamasteDev = new URL("./assets/certifications/namasteDev.com.png", import.meta.url);
-
-
-
-
-console.log(import.meta.url)
-console.log(htmlLogo)
-console.log(cssLogo)
+const NamasteNode = new URL("./assets/certifications/namaste_node.webp", import.meta.url);
 
 //Skills constants
 export const SkillsInfo=[
@@ -59,11 +56,15 @@ export const SkillsInfo=[
             {name:"React",logo:reactLogo},
             {name:"BootStrap",logo:bootstrapLogo},
             {name:"TailWindCSS",logo:tailwindLogo},
+            {name:"DaisyUI",logo:daisyUILogo},
         ],
     },
     {
-        title: "Databases",
+        title: "Backend",
         skills:[
+            {name:"Node.js",logo:nodeLogo},
+            {name:"Express.js",logo:expressLogo},
+            {name:"MongoDB",logo:mongoLogo},
             {name:"MySql",logo:mysqlLogo},
             {name:"PostgreSql",logo:postgresqlLogo}
         ],
@@ -74,7 +75,7 @@ export const SkillsInfo=[
         title: "Additional Skills",
         skills:[
             {name:"DSA",logo:datastructuresLogo},
-            {name:"API",logo:ApiLogo},
+            {name:"RESTful API",logo:ApiLogo},
             {name:"Excel",logo:excelLogo},
             {name:"Word",logo:wordLogo},
             {name:"PowerPoint",logo:powerpointLogo}
@@ -165,14 +166,22 @@ export const Projects=[
 export const Certifications =[
     {
         id: 0,
+        img: NamasteNode,
+        imgLogo:NamasteDev,
+        course: "Namaste Node.Js",
+        company: "NamasteDev.com",
+        desc: "Completed the Node.js certification from NamasteDev with a strong understanding of backend development fundamentals, including Node.js, Express.js, REST APIs, routing, middleware, authentication, and MongoDB integration. Gained hands-on experience in building scalable server-side applications, creating RESTful APIs, managing databases, and implementing authentication and authorization. Familiar with asynchronous programming, error handling, and modern backend development best practices for developing efficient and maintainable web applications.",
+    },
+    {
+        id: 1,
         img: NamasteJavaScript,
         imgLogo:NamasteDev,
-        course: "Namaste JavaScript",
+        course: "Namaste Node.js",
         company: "NamasteDev.com",
         desc: "Completed Namaste JavaScript course with strong understanding of core JavaScript concepts such as closures, promises, async/await, event loop, hoisting, ES6 features, and DOM manipulation through practical projects and hands-on learning.",
     },
     {
-        id: 1,
+        id: 2,
         img: NamasteReact,
         imgLogo:NamasteDev,
         course: "Namaste React",

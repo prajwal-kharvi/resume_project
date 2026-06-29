@@ -25,10 +25,12 @@ const About = () => {
                         </span>
                         <ReactTypingEffect
                         text={[
+                            "MERN Stack Developer",
                             "Frontend Developer",
                             "React Developer",
                             "Web Developer",
-                            "UI/UX Designer"
+                            "Node.js Developer",
+                            "Software Developer",
                         ]}
                         speed={100}
                         eraseSpeed={50}
@@ -42,10 +44,10 @@ const About = () => {
                     </h3>
                     {/* about me paragraph*/}
                         <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-                            I am a Motivated Frontend Developer with practical experience in building responsive web applications using React.js,
-                            JavaScript, HTML5, and CSS3. Developed 3 full-stack projects demonstrating proficiency in REST API integration,
-                            React Hooks, and modern web development practices. Quick learner with strong problem-solving abilities seeking
-                            an entry-level position to contribute to innovative projects.
+                            MERN Stack Developer with hands-on experience building responsive web applications using MongoDB, Express.js, React.js, and
+                            Node.js. Skilled in developing REST APIs, database management, React Hooks, state management, and modern web development
+                            practices. Built projects including a Food Delivery Application, Finance Dashboard, and Personal Portfolio Website. Quick learner with
+                            strong problem-solving abilities seeking an entry-level Software Developer or MERN Stack Developer role.
                         </p>
                     {/*Resume button*/}
 
