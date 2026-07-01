@@ -166,11 +166,11 @@ export const Projects=[
 export const Certifications =[
     {
         id: 0,
-        img: NamasteJavaScript,
+        img: NamasteNode,
         imgLogo:NamasteDev,
-        course: "Namaste JavaScript",
+        course: "Namaste Node.Js",
         company: "NamasteDev.com",
-        desc: "Completed Namaste JavaScript course with strong understanding of core JavaScript concepts such as closures, promises, async/await, event loop, hoisting, ES6 features, and DOM manipulation through practical projects and hands-on learning.",
+        desc: "Completed the Node.js certification from NamasteDev with a strong understanding of backend development fundamentals, including Node.js, Express.js, REST APIs, routing, middleware, authentication, and MongoDB integration. Gained hands-on experience in building scalable server-side applications, creating RESTful APIs, managing databases, and implementing authentication and authorization. Familiar with asynchronous programming, error handling, and modern backend development best practices for developing efficient and maintainable web applications.",
     },
     {
         id: 1,
@@ -180,14 +180,16 @@ export const Certifications =[
         company: "NamasteDev.com",
         desc: "Completed Namaste React certification with strong knowledge of React fundamentals, including components, JSX, props, state, hooks (useState, useEffect), and component lifecycle.Hands-on experience in building scalable, reusable UI components and managing application state and side effects.Familiar with modern React practices, performance optimization, and integrating APIs for frontend applications.",
     },
+
     {
         id: 2,
-        img: NamasteNode,
+        img: NamasteJavaScript,
         imgLogo:NamasteDev,
-        course: "Namaste Node.Js",
+        course: "Namaste JavaScript",
         company: "NamasteDev.com",
-        desc: "Completed the Node.js certification from NamasteDev with a strong understanding of backend development fundamentals, including Node.js, Express.js, REST APIs, routing, middleware, authentication, and MongoDB integration. Gained hands-on experience in building scalable server-side applications, creating RESTful APIs, managing databases, and implementing authentication and authorization. Familiar with asynchronous programming, error handling, and modern backend development best practices for developing efficient and maintainable web applications.",
+        desc: "Completed Namaste JavaScript course with strong understanding of core JavaScript concepts such as closures, promises, async/await, event loop, hoisting, ES6 features, and DOM manipulation through practical projects and hands-on learning.",
     },
+
 ]
 
 //My profile photo
