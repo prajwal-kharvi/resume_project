@@ -166,6 +166,14 @@ export const Projects=[
 export const Certifications =[
     {
         id: 0,
+        img: NamasteJavaScript,
+        imgLogo:NamasteDev,
+        course: "Namaste JavaScript",
+        company: "NamasteDev.com",
+        desc: "Completed Namaste JavaScript course with strong understanding of core JavaScript concepts such as closures, promises, async/await, event loop, hoisting, ES6 features, and DOM manipulation through practical projects and hands-on learning.",
+    },
+    {
+        id: 1,
         img: NamasteNode,
         imgLogo:NamasteDev,
         course: "Namaste Node.Js",
@@ -173,21 +181,12 @@ export const Certifications =[
         desc: "Completed the Node.js certification from NamasteDev with a strong understanding of backend development fundamentals, including Node.js, Express.js, REST APIs, routing, middleware, authentication, and MongoDB integration. Gained hands-on experience in building scalable server-side applications, creating RESTful APIs, managing databases, and implementing authentication and authorization. Familiar with asynchronous programming, error handling, and modern backend development best practices for developing efficient and maintainable web applications.",
     },
     {
-        id: 1,
+        id: 2,
         img: NamasteReact,
         imgLogo:NamasteDev,
         course: "Namaste React",
         company: "NamasteDev.com",
         desc: "Completed Namaste React certification with strong knowledge of React fundamentals, including components, JSX, props, state, hooks (useState, useEffect), and component lifecycle.Hands-on experience in building scalable, reusable UI components and managing application state and side effects.Familiar with modern React practices, performance optimization, and integrating APIs for frontend applications.",
-    },
-
-    {
-        id: 2,
-        img: NamasteJavaScript,
-        imgLogo:NamasteDev,
-        course: "Namaste JavaScript",
-        company: "NamasteDev.com",
-        desc: "Completed Namaste JavaScript course with strong understanding of core JavaScript concepts such as closures, promises, async/await, event loop, hoisting, ES6 features, and DOM manipulation through practical projects and hands-on learning.",
     },
 
 ]
